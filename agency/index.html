@@ -1,0 +1,780 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MarketPlace</title>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
+    <link rel="stylesheet" href="css/b__menu.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+</head>
+<body>
+    <header class="header" id="link__home">
+        <div class="container container-fluid">
+            <div class="header__inner" style="background-image: url(images/header__back.jpg);">
+                <div class="header__inner-box">
+                    <h1 class="header__inner-title">
+                        <a href="#">
+                            Tomorrow is a <span>brand</span> new day!
+                        </a>                  
+    
+                    </h1>
+                    <p class="header__inner-text">
+                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. 
+                        Aenean commodo ligula eget dolor. Aenean massa.
+                    </p>
+                    <a  class="header__inner-link link" href="#">more</a>
+                </div>
+                
+            </div>
+        </div>
+    </header>
+    <div class="menu">
+        <div class="burger">
+            <span></span>
+          </div>
+          
+          <nav>
+            <ul class="main">
+              <li><a href="#link__home">Home</a></li>
+              <li><a href="#link__works">Our Works</a></li>
+              <li><a href="#link__team">Our Team</a></li>
+              <li><a href="#link__news">Our News</a></li>
+              <li><a href="#link__contacts">CONTACT US</a></li>
+            </ul>
+            
+            <div class="about">
+              <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+            </div>
+            
+            <div class="social">
+              <a href="#" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="64px" height="64px" viewBox="0 0 64 64"><g transform="translate(0, 0)"><path d="M64,12.2c-2.4,1-4.9,1.8-7.5,2.1c2.7-1.6,4.8-4.2,5.8-7.3c-2.5,1.5-5.3,2.6-8.3,3.2C51.5,7.6,48.1,6,44.3,6 c-7.3,0-13.1,5.9-13.1,13.1c0,1,0.1,2,0.3,3C20.6,21.6,10.9,16.3,4.5,8.4c-1.1,1.9-1.8,4.2-1.8,6.6c0,4.6,2.3,8.6,5.8,10.9 c-2.2-0.1-4.2-0.7-5.9-1.6c0,0.1,0,0.1,0,0.2c0,6.4,4.5,11.7,10.5,12.9c-1.1,0.3-2.3,0.5-3.5,0.5c-0.8,0-1.7-0.1-2.5-0.2 c1.7,5.2,6.5,9,12.3,9.1c-4.5,3.5-10.2,5.6-16.3,5.6c-1.1,0-2.1-0.1-3.1-0.2C5.8,55.8,12.7,58,20.1,58c24.2,0,37.4-20,37.4-37.4 c0-0.6,0-1.1,0-1.7C60,17.1,62.2,14.8,64,12.2z"></path></g></svg></a>
+              <a href="#" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="64px" height="64px" viewBox="0 0 64 64"><g transform="translate(0, 0)"><path d="M32,5.766c8.544,0,9.556,0.033,12.931,0.187c3.642,0.166,7.021,0.895,9.621,3.496 c2.6,2.6,3.329,5.979,3.496,9.621c0.154,3.374,0.187,4.386,0.187,12.931s-0.033,9.556-0.187,12.931 c-0.166,3.642-0.895,7.021-3.496,9.621c-2.6,2.6-5.98,3.329-9.621,3.496c-3.374,0.154-4.386,0.187-12.931,0.187 s-9.557-0.033-12.931-0.187c-3.642-0.166-7.021-0.895-9.621-3.496c-2.6-2.6-3.329-5.979-3.496-9.621 C5.798,41.556,5.766,40.544,5.766,32s0.033-9.556,0.187-12.931c0.166-3.642,0.895-7.021,3.496-9.621 c2.6-2.6,5.979-3.329,9.621-3.496C22.444,5.798,23.456,5.766,32,5.766 M32,0c-8.691,0-9.78,0.037-13.194,0.193 c-5.2,0.237-9.768,1.511-13.436,5.178C1.705,9.037,0.43,13.604,0.193,18.806C0.037,22.22,0,23.309,0,32 c0,8.691,0.037,9.78,0.193,13.194c0.237,5.2,1.511,9.768,5.178,13.436c3.666,3.666,8.234,4.941,13.436,5.178 C22.22,63.963,23.309,64,32,64s9.78-0.037,13.194-0.193c5.199-0.237,9.768-1.511,13.436-5.178c3.666-3.666,4.941-8.234,5.178-13.436 C63.963,41.78,64,40.691,64,32s-0.037-9.78-0.193-13.194c-0.237-5.2-1.511-9.768-5.178-13.436 c-3.666-3.666-8.234-4.941-13.436-5.178C41.78,0.037,40.691,0,32,0L32,0z"></path> <path data-color="color-2" d="M32,15.568c-9.075,0-16.432,7.357-16.432,16.432c0,9.075,7.357,16.432,16.432,16.432 S48.432,41.075,48.432,32C48.432,22.925,41.075,15.568,32,15.568z M32,42.667c-5.891,0-10.667-4.776-10.667-10.667 c0-5.891,4.776-10.667,10.667-10.667c5.891,0,10.667,4.776,10.667,10.667C42.667,37.891,37.891,42.667,32,42.667z"></path> <circle data-color="color-2" cx="49.082" cy="14.918" r="3.84"></circle></g></svg></a>
+            </div>
+            
+            <ul class="sub">
+              <li><a href="#">FAQ &amp; Shipping</a></li>
+              <li><a href="#">Terms &amp; Conditions</a></li>
+            </ul>
+          </nav>
+          
+          <div class="overlay"></div>
+
+    </div>
+   <main class="main">
+         <section class="about">
+            <div class="container">
+                <div class="about__inner">
+                    <h2 class="about__inner-title section__title" >
+                        About us
+                    </h2>
+                    <div class="about__inner-items">
+                        <div class="about__item">
+                            <div class="about__item-top">
+                                <h3 class="about__item-title">
+                                   <a href="#">Website Design & Development </a> 
+                                </h3>
+                                <a class="about__item-link" href="#">
+                                    <img src="images/icons/arrow.png" alt="arrow">
+                                </a>
+                            </div>
+                            
+                            <p class="about__item-txt">
+                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.  
+                            </p>
+                        </div>
+
+                        <div class="about__item">
+                            <div class="about__item-top">
+                                <h3 class="about__item-title">
+                                    <a href="#">Graphic Design & Advertising </a>
+                                </h3>
+                                <a class="about__item-link" href="#">
+                                    <img src="images/icons/arrow.png" alt="arrow">
+                                </a>
+                            </div>
+                            
+                            <p class="about__item-txt">
+                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+                            </p>
+                        </div>
+
+                        <div class="about__item">
+                            <div class="about__item-top">
+                                <h3 class="about__item-title">
+                                    <a href="#">Advertising & Marketing Strategy</a>
+                                </h3>
+                                <a class="about__item-link" href="#">
+                                    <img src="images/icons/arrow.png" alt="arrow">
+                                </a>
+                            </div>
+                            <p class="about__item-txt ">
+                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+                            </p>
+                        </div>
+
+                    </div>
+
+
+                </div>
+            </div>
+        </section>
+
+        <section class="works" id="link__works">
+            <div class="container">
+                <div class="works__inner">
+                    <h2 class="works__inner-title section__title" >
+                        Our Works
+                    </h2>
+
+                    <div class="works__filter-btn">
+                        <button type="button" data-filter="all" >All</button>
+                        <span>/</span>
+                        <button type="button" data-filter=".category-architecture">Architecture</button>
+                        <span>/</span>
+                        <button type="button" data-filter=".category-furnitureDesign">Interior & Furniture DesigN</button>
+                        <span>/</span>
+                        <button type="button" data-filter=".category-graphicDesign">Research & Graphic Design</button>
+                        
+                    </div>
+
+                    <div class="works__items">
+                        <article class="works__item mix category-architecture" data-order="1">
+                            <a class="works__item-image" href="#">
+                                <img src="images/work1.jpg" alt="works">
+                            </a>
+                            <h4 class="works__item-title">
+                                <a href="#">Sample</a>
+                            </h4>
+                            <p class="works__item-categories">
+                                Design, Bottle
+                            </p>
+                        </article>
+
+                        <article class="works__item mix category-furnitureDesign" data-order="2">
+                            <a class="works__item-image" href="#">
+                                <img src="images/work2.jpg" alt="works">
+                            </a>
+                            <h4 class="works__item-title">
+                                <a href="#">On the road</a>
+                            </h4>
+                            <p class="works__item-categories">
+                                Branding, Design, Logotype
+                            </p>
+                        </article>
+
+                        <article class="works__item mix category-graphicDesign" data-order="3">
+                            <a class="works__item-image" href="#">
+                                <img src="images/work3.jpg" alt="works">
+                            </a>
+                            <h4 class="works__item-title">
+                                <a href="#">Terminal</a>
+                            </h4>
+                            <p class="works__item-categories">
+                                Design, Logotype, Terminal
+                            </p>
+                        </article>
+
+                        <article class="works__item mix category-graphicDesign" data-order="4">
+                            <a class="works__item-image" href="#">
+                                <img src="images/work4.jpg" alt="works">
+                            </a>
+                            <h4 class="works__item-title">
+                                <a href="#">Sample</a>
+                            </h4>
+                            <p class="works__item-categories">
+                                Design, Bottle
+                            </p>
+                        </article>
+
+                        <article class="works__item mix category-graphicDesign" data-order="5">
+                            <a class="works__item-image" href="#">
+                                <img src="images/work5.jpg" alt="works">
+                            </a>
+                            <h4 class="works__item-title">
+                                <a href="#">Noteckie</a>
+                            </h4>
+                            <p class="works__item-categories">
+                                Branding, Design, Logotype
+                            </p>
+                        </article>
+
+                        <article class="works__item mix category-graphicDesign" data-order="6">
+                            <a class="works__item-image" href="#">
+                                <img src="images/work6.jpg" alt="works">
+                            </a>
+                            <h4 class="works__item-title">
+                                <a href="#">Voyageur du temps</a>
+                            </h4>
+                            <p class="works__item-categories">
+                                Design, Logotype, Terminal
+                            </p>
+                        </article>
+                    </div>
+                    <a  class="work__inner-link link" href="#">more</a>
+
+
+
+                </div>
+            </div>
+        </section>
+
+        <section class="reasons">
+            <div class="container">
+                <div class="reasons__inner">
+                    <h2 class="reasons__inner-title section__title" >
+                        why choose us
+                    </h2>
+
+                    <div class="reasons__items">
+                        <article class="reason__item">
+                            <img class="reason__item-image" src="images/icons/Shape1.png" alt="shape">
+                            
+                            <div class="reason__item-box">
+                                <h3 class="reason__item-title">
+                                    <a href="#">BEAUTIFUL & ENJOYABLE DESIGNS</a>
+                                </h3>
+                                <div class="reason__item-subtitle">
+                                    We define the trends. Enough Said!
+                                </div>
+                                <div class="reason__item-txt">
+                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="reason__item">
+                            <img class="reason__item-image" src="images/icons/Shape2.png" alt="shape">
+
+                            <div class="reason__item-box">
+                                <h3 class="reason__item-title">
+                                    <a href="#">PERFECT LAYOUT & EFFICIENT CODING</a>
+                                </h3>
+                                <div class="reason__item-subtitle">
+                                    We produce top class code
+                                </div>
+                                <div class="reason__item-txt">
+                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="reason__item">
+                            <img class="reason__item-image" src="images/icons/Shape3.png" alt="shape">
+
+                            <div class="reason__item-box">
+                                <h3 class="reason__item-title">
+                                    <a href="#">DEDICATED SUPPORT & UPDATES</a>
+                                </h3>
+                                <div class="reason__item-subtitle">
+                                    Team of experts to assist you
+                                </div>
+                                <div class="reason__item-txt">
+                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="reason__item">
+                            <img class="reason__item-image" src="images/icons/Shape4.png" alt="shape">
+
+                            <div class="reason__item-box">
+                                <h3 class="reason__item-title">
+                                    <a href="#">DEDICATED SUPPORT & UPDATES</a> 
+                                </h3>
+                                <div class="reason__item-subtitle">
+                                    Team of experts to assist you
+                                </div>
+                                <div class="reason__item-txt">
+                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section> 
+
+        <section class="voyage" style="background-image: url(images/voyage-bgnd.jpg);">
+            <div class="container">
+                <div class="voyage__inner">
+                    <h2 class="voyage__inner-title">
+                       <a href="#">Voyageur du temps</a> 
+                    </h2>
+                    <p class="voyage__inner-txt">
+                        Our last responsive work in process. Just use the link below 
+                        to watch what we are doing right now. Hope you like it!
+                    </p>
+
+                    <a  class="voyage__inner-link link" href="#">more</a>
+                    <div class="voyage__inner-phone">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5957.082163962424!2d-73.97184637888212!3d40.76593093766085!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2z0J3RjNGOLdCZ0L7RgNC6LCDQodCo0JA!5e1!3m2!1sru!2sua!4v1592158505742!5m2!1sru!2sua"  frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                        
+                    </div>
+
+
+                </div>
+            </div>
+        </section>
+
+        <section class="team" id="link__team">
+            <div class="container">
+                <div class="team__items">
+                    <div class="team__item">
+                        <img class="team__item-image" src="images/icons/designers.png" alt="designers">
+                        <div class="team__item-box">
+                            <span class="team__item-title">
+                                11
+                            </span>
+                            <p class="team__item-txt">
+                                Designers 
+                            </p>
+                        </div>
+                    </div>
+
+
+                    <div class="team__item">
+                        <img class="team__item-image" src="images/icons/hours.png" alt="hours">
+                        <div class="team__item-box">
+                            <span class="team__item-title">
+                                6542
+                            </span>
+                            <p class="team__item-txt">
+                                Hours worked 
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="team__item">
+                        <img class="team__item-image" src="images/icons/projects.png" alt="projects">
+                        <div class="team__item-box">
+                            <span class="team__item-title">
+                                254
+                            </span>
+                            <p class="team__item-txt">
+                                Project finished
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="team__item">
+                        <img class="team__item-image" src="images/icons/coffee.png" alt="coffee">
+                        <div class="team__item-box">
+                            <span class="team__item-title">
+                                435
+                            </span>
+                            <p class="team__item-txt">
+                                Drunk Coffee
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="members">
+            <div class="container">
+                <div class="members__inner">
+                    <h2 class="members__inner-title section__title" >
+                        our team
+                    </h2>
+
+                    <p class="members__inner-txt">
+                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. 
+                        Aenean commodo ligula eget dolor. Aenean massa. 
+                    </p>
+                    <div class="members__items">
+                        <div class="members__item">
+                            <div class="members__item-avatar" style="background-image: url(images/member1.jpg);">
+                                
+                            </div>
+                            <p class="members__item-name">
+                                John Doe
+                            </p>
+                            <p class="members__item-position">
+                                Senior Designer
+                            </p>
+                        </div>
+
+                        <div class="members__item">
+                            <div class="members__item-avatar" style="background-image: url(images/member2.jpg);">
+                                
+                            </div>
+                            <p class="members__item-name">
+                                Joanna Doe
+                            </p>
+                            <p class="members__item-position">
+                                Senior Designer
+                            </p>
+                        </div>
+
+                        <div class="members__item">
+                            <div class="members__item-avatar" style="background-image: url(images/member3.jpg);">
+                                
+                            </div>
+                            <p class="members__item-name">
+                                John Doe
+                            </p>
+                            <p class="members__item-position">
+                                Senior Designer
+                            </p>
+                        </div>
+
+                        <div class="members__item">
+                            <div class="members__item-avatar" style="background-image: url(images/member4.jpg);">
+                                
+                            </div>
+                            <p class="members__item-name">
+                                Joanna Doe
+                            </p>
+                            <p class="members__item-position">
+                                Senior Designer
+                            </p>
+                        </div>
+                    </div>                  
+                </div>
+            </div>
+        </section>
+
+        <section class="video-section">
+            <div class="container">
+                <div class="video__inner" >
+                    <video id="video-player"  src="images/video.mp4" 
+                    poster="images/poster.jpg"></video>
+                    
+                    <input class="range-slider__range" id="progress" type="range" max='100' value="0" style="width: 96.5%; margin: 0 auto;">
+                
+                    <button id='play' class="icon-play2 active"></button>
+                    <button id='pause' class="icon-pause disable"></button>
+
+
+                </div>
+            </div>
+        </section>
+
+    
+
+
+        <section class="skills">
+            <div class="container">
+                <div class="skills__inner">
+                    <h2 class="skills__inner-title section__title" >
+                        our skills
+                    </h2>
+
+                    <div class="skills__items">
+                        <div class="skills__box">
+                            <h3 class="skills__box-title">
+                                perfect layout & efficient coding
+                            </h3>
+                            <div class="skills__box-subtitle">
+                                We produce top class code
+                            </div>
+                            <p class="skills__box-txt">
+                                Hi, my name is Sergey Nefortunov, I'm 25 and a web & UI designer based is Kiev, Ukraine. I started designing long ago with the basis pencil and paper drawings, sketching, painting and product design. Now I work with such software as Adobe Photoshop and Adobe Illustrator. Also I work with the content Management Systems such as: Wordpress and Magento
+                            </p>
+                        </div>
+                        <div class="skills__histogram">
+                            <div class="skills__histogram-column" style="width: 100%;">
+                                Adobe Photoshop
+                            </div>
+
+                            <div class="skills__histogram-column" style="width: 85%;">
+                                Adobe Illustrator
+                            </div>
+
+                            <div class="skills__histogram-column" style="width: 76%;">
+                                HTML 5
+                            </div>
+
+                            <div class="skills__histogram-column" style="width: 94%;">
+                                CSS
+                            </div>
+
+                            <div class="skills__histogram-column" style="width: 100%;">
+                                Java Script
+                            </div>
+
+                            <div class="skills__histogram-column" style="width: 94%;">
+                                Piton
+                            </div>
+
+                            <div class="skills__histogram-column" style="width: 100%;">
+                                Responsive Design
+                            </div>
+
+                            <div class="skills__histogram-column" style="width: 84%;">
+                                Adobe Illustrator
+                            </div>
+
+                            <div class="skills__histogram-column" style="width: 76%;">
+                                HTML 5
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="partners">
+            <div class="container">
+                <div class="partners__inner">
+                    <div class="partners__items">
+                        <div class="partners__item">
+                            <img src="images/partenr1.png" alt="partner">
+                        </div>
+                        <div class="partners__item">
+                            <img src="images/partenr2.png" alt="partner">
+                        </div>
+                        <div class="partners__item">
+                            <img src="images/partenr3.png" alt="partner">
+                        </div>
+                        <div class="partners__item">
+                            <img src="images/partenr4.png" alt="partner">
+                        </div>
+                        <div class="partners__item">
+                            <img src="images/partenr5.png" alt="partner">
+                        </div>
+                        <div class="partners__item">
+                            <img src="images/partenr6.png" alt="partner">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> 
+
+        <section class="slider">
+            <div class="container">
+                <div class="slider__inner">
+                    <div class="slider__items">
+                        <div class="slider__item" style="background-image: url(images/sliderback.jpg);">
+                            <img class="slider__item-photo" src="images/podruga.png" alt="photo">
+                            <div class="slider__item-box">
+                                <p class="slider__item-txt">
+                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. 
+                                </p>
+                                <div class="slider__item-author">
+                                    Joanna Doe <br>
+                                    <span>Senior Designer, Manager</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slider__item" style="background-image: url(images/sliderback.jpg);">
+                            <img class="slider__item-photo" src="images/podruga.png" alt="photo">
+                            <div class="slider__item-box">
+                                <p class="slider__item-txt">
+                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error magnam id qui eaque amet nobis praesentium quam numquam harum sed veritatis optio labore repellendus, molestias delectus temporibus nemo animi. 
+                                </p>
+                                <div class="slider__item-author">
+                                    Joanna Doe <br>
+                                    <span>Senior Designer, Manager</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slider__item" style="background-image: url(images/sliderback.jpg);">
+                            <img class="slider__item-photo" src="images/podruga.png" alt="photo">
+                            <div class="slider__item-box">
+                                <p class="slider__item-txt">
+                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.   
+                                </p>
+                                <div class="slider__item-author">
+                                    Joanna Doe <br>
+                                    <span>Senior Designer, Manager</span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="news" id="link__news">
+            <div class="container">
+                <div class="news__inner">
+                    <h2 class="news__inner-title section__title">
+                        OUR NEWS
+                    </h2>
+                    <p class="news__inner-txt subtitle-txt">
+                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. 
+                        Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+
+                    </p>
+
+                    <div class="news__items">
+                        <article class="news__item">
+                            <img class="news__item-image" src="images/poster.jpg" alt="image">
+                            <div class="news__item-box">
+                                <h3 class="news__item-title">
+                                    <a href="#">
+                                        PERFECT LAYOUT
+                                    </a>                                    
+                                </h3>
+                            <time class="news__item-time" datetime="2014-08-11">
+                                11 august 2014
+                            </time>
+                                <p class="news__item-txt">
+                                    Hi, my name is Sergey Nefortunov, I'm 25 and I'm a web & UI designer based in Kiev, Ukraine. I started designing long ago with the basic pencil and paper drawings, sketching, painting and product design. Hi, my name is Sergey Nefortunov, I'm 25 and I'm a web & UI designer based in Kiev, Ukraine. 
+                                </p>
+                                <div class="news__item-links">
+                                    <a href="#">#UX</a>
+                                    <a href="#">#UI</a>
+                                    <a href="#">#webdesign</a>
+                                    <a href="#">#responsible</a>
+                                    <a href="#">#website</a>
+                                            
+                                </div>
+
+                            </div>
+
+                        </article>
+
+                        <article class="news__item">
+                            <img class="news__item-image" src="images/poster.jpg" alt="image">
+                            <div class="news__item-box">
+                                <h3 class="news__item-title">
+                                    <a href="#">
+                                        PERFECT LAYOUT
+                                    </a> 
+                                </h3>
+                            <time class="news__item-time" datetime="2014-08-11">
+                                11 august 2014
+                            </time>
+                                <p class="news__item-txt">
+                                    Hi, my name is Sergey Nefortunov, I'm 25 and I'm a web & UI designer based in Kiev, Ukraine. I started designing long ago with the basic pencil and paper drawings, sketching, painting and product design. Hi, my name is Sergey Nefortunov, I'm 25 and I'm a web & UI designer based in Kiev, Ukraine. 
+                                </p>
+                                <div class="news__item-links">
+                                    <a href="#">#UX</a>
+                                    <a href="#">#UI</a>
+                                    <a href="#">#webdesign</a>
+                                    <a href="#">#responsible</a>
+                                    <a href="#">#website</a>
+                                            
+                                </div>
+
+                            </div>
+
+                        </article>
+
+                        <a  class="news__inner-link link" href="#">more</a>
+
+                    </div>
+
+
+
+                </div>
+            </div>
+        </section> 
+
+        <section class="form">
+            <div class="container">
+                <div class="form__inner">
+                    <h2 class="form__inner-title section__title">
+                        Thank You!
+                    </h2>
+                    <form action="mailto:vlad@vlad.ua">
+                        <input type="text" placeholder="name">
+                        <input type="email" placeholder="e-mail">
+                        <input type="text" placeholder="message">
+                        <button type="submit" class="form__inner-btn link">send</button>
+
+                    </form>
+
+                </div>
+            </div>
+        </section> 
+
+        <section class="contacts" id="link__contacts">
+            <div class="container">
+                <div class="contacts__inner">
+                    <h2 class="contacts__inner-title section__title">
+                        Contact Us
+                    </h2>
+                    <p class="contacts__inner-txt subtitle-txt">
+                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. 
+                        Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. 
+
+
+                    </p>
+
+                    <div class="contacts__items">
+                        <a class="contacts__item" href="mailto:hi@sndsgn.ca">
+                            
+                            <img src="images/icons/jet.png" alt="image">                    
+                            hi@sndsgn.ca
+                        </a>
+                        <a class="contacts__item" href="#">
+                            
+                            <img src="images/icons/place.png" alt="image">                    
+                            Ukraine, Kiev, Khreshatik str.
+                        </a>
+                        <a class="contacts__item" href="tel:+380664753022">
+                            
+                            <img src="images/icons/Pphone.png" alt="image">                    
+                            +38 066 475 30 22
+                        </a>
+
+                        
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <a class="footer__inner-logo">
+                    <img src="images/icons/bike.png" alt="bike">
+                    SNDSGN
+                </a>
+                <ul class="footer__inner-links">
+                    <li>
+                        <a class="icon-facebook" href="#"></a>
+                    </li>
+                    <li>
+                        <a class="icon-twitter" href="#"></a>
+                    </li>
+                    <li>
+                        <a class="icon-dribbble" href="#"></a>
+                    </li>
+                    <li>
+                        <a class="icon-behance" href="#"></a>
+                    </li>
+                    <li>
+                        <a class="icon-linkedin2" href="#"></a>
+                    </li>
+                    <li>
+                        <a class="icon-pinterest2" href="#"></a>
+                    </li>
+                    
+                </ul>
+                <p class="footer__inner-copyright">
+                    © SNDSGN Wordpress Theme
+                </p>
+
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="js/slick.js"></script>
+    <script src="js/mixitup.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/b_menu.js"></script>
+    <script src="js/main.js"></script>
+    
+</body>
+</html>
